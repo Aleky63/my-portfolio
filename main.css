@@ -224,11 +224,7 @@ h6 {
   background-repeat: no-repeat;
 }
 .about__container {
-  padding: 135px 0 150px;
-  margin: 0 auto;
-  width: 100%;
-  height: 100%;
-  position: relative;
+  padding: 130px 0 150px;
 }
 
 .title {
@@ -242,7 +238,6 @@ h6 {
   margin-bottom: 70px;
 }
 .about__card {
-  padding-top: 75px;
   width: 100%;
   padding-top: 25%;
   position: relative;
@@ -260,7 +255,7 @@ h6 {
 }
 .about__item img {
   width: 24.5%;
-  height: 70%;
+  height: 70.5%;
   object-fit: cover;
   position: absolute;
   top: 0;
@@ -291,15 +286,12 @@ h6 {
   left: 68%;
 }
 
-.work__container {
-  padding: 30px 0;
-}
 .work {
   background-color: #07203f;
   color: #ffffff;
 }
 .work__list {
-  padding: 0 135px;
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -309,7 +301,7 @@ h6 {
   margin-bottom: 0;
 }
 .work__title {
-  padding: 70px;
+  padding: 70px 0;
 }
 
 .work__card {
