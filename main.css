@@ -169,7 +169,7 @@ h6 {
 .hero__container {
   display: grid;
   grid-template-columns: 7fr 5fr;
-  padding: 150px 135px;
+  padding: 250px 135px 120px;
 }
 .hero-info {
   max-width: 605px;
@@ -177,7 +177,7 @@ h6 {
 .hero__title {
   font-size: 64px;
   font-weight: 800;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 .hero__text {
   padding: 60px 0;
@@ -418,9 +418,6 @@ label:nth-child(3) {
 }
 .contacts {
   background-color: rgb(214, 219, 219);
-}
-
-.contacts__container {
 }
 
 .contacts__list {
