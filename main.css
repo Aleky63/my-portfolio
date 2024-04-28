@@ -342,8 +342,7 @@ h6 {
   line-height: 42.19px;
   text-align: left;
 }
-.reverse {
-  display: flex;
+.work__card:nth-child(even) {
   flex-direction: row-reverse;
 }
 .client {
