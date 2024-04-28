@@ -357,7 +357,8 @@ h6 {
   text-align: center;
 }
 .client__form {
-  margin: 0 auto;
+  margin: 0 65px;
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -369,13 +370,12 @@ h6 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 70%;
+  max-width: 760px;
 }
-
 .client__input {
-  margin: 19px 70px;
+  margin: 19px 0;
   padding: 35px;
-  width: 80%;
+  width: 100%;
   align-self: center;
   background-color: #eaded459;
 }
@@ -392,20 +392,18 @@ label:nth-child(3) {
 }
 .client__send {
   display: flex;
-  justify-content: center;
-  gap: 150px;
+  justify-content: space-between;
+  width: 100%;
+  gap: 5px;
 }
 
 .client__btn {
-  padding: 0;
-  padding: 5px;
-  width: 29%;
+  padding: 20px 40px;
   font-family: Montserrat;
   font-size: 36px;
   font-weight: 500;
   line-height: 43.88px;
-  text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   background-color: #eaded4cc;
 }
 .contacts {
