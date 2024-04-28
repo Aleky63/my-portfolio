@@ -311,6 +311,9 @@ h6 {
   width: 100%;
   margin-bottom: 105px;
 }
+.work__card:nth-child(even) {
+  flex-direction: row-reverse;
+}
 .work__card-pic {
   width: 47%;
   height: 360px;
@@ -342,9 +345,7 @@ h6 {
   line-height: 42.19px;
   text-align: left;
 }
-.work__card:nth-child(even) {
-  flex-direction: row-reverse;
-}
+
 .client {
   background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1612759680_86-p-fon-goluboi-okean-150.jpg);
   background-size: cover;
